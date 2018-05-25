@@ -1,1 +1,1 @@
-# TypeScript Labs
+## Lab3 Google Map API
