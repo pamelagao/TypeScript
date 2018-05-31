@@ -1,0 +1,31 @@
+/* You can add global styles to this file, and also import other style files */
+nav {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+nav ul > ul {
+    list-style: none;
+}
+.nav1 li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.nav2,
+.nav3 {
+    display: none;
+}
+
+.nav1 li:hover > ul,
+.nav2 li:hover > ul {
+    display: block;
+}
+.nav2 {
+    position: absolute;
+    left: 0;
+    width: 30px;
+}
+.nav2 li {
+    display: inline-block;
+}
